@@ -1,0 +1,7 @@
+<template name="sidebar">
+  <ul class="list-unstyled">
+    {{#each documents}}
+    <li class="sidebar-document"><a class="btn btn-default btn-block" href="{{pathFor 'viewDocument'}}">{{title}}</a></li>
+    {{/each}}
+  </ul>
+</template>

@@ -1,0 +1,7 @@
+<template name="viewDocument">
+  <h2>{{title}} <a class="btn btn-xs btn-default" href="{{pathFor 'editDocument'}}">Edit</a></h2>
+  
+  {{#markdown}}
+    {{body}}
+  {{/markdown}}
+</template>
