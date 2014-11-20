@@ -1,5 +1,6 @@
 Template.editDocument.events({
-  'keypress #documentEditor': function(e) {
+  'keyup #documentEditor': function(e) {
+    
     var content = $(e.target).val();
     var location = $(e.target).caret();
     
